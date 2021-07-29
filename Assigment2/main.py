@@ -18,3 +18,5 @@ def my_form_post():
             cnt=cnt+1
     r="{:.2f}".format(cnt/len(l1))
     return r
+if __name__ == '__main__':
+    app.run(debug=True)
